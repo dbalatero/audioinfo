@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07AF420C14806520004B68A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07AF420B14806520004B68A9 /* main.cpp */; };
+		07AF420E14806520004B68A9 /* audioinfo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07AF420D14806520004B68A9 /* audioinfo.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07AF420514806520004B68A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				07AF420E14806520004B68A9 /* audioinfo.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07AF420714806520004B68A9 /* audioinfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = audioinfo; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AF420B14806520004B68A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		07AF420D14806520004B68A9 /* audioinfo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = audioinfo.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07AF420414806520004B68A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07AF41FC14806520004B68A9 = {
+			isa = PBXGroup;
+			children = (
+				07AF420A14806520004B68A9 /* audioinfo */,
+				07AF420814806520004B68A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07AF420814806520004B68A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07AF420714806520004B68A9 /* audioinfo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07AF420A14806520004B68A9 /* audioinfo */ = {
+			isa = PBXGroup;
+			children = (
+				07AF420B14806520004B68A9 /* main.cpp */,
+				07AF420D14806520004B68A9 /* audioinfo.1 */,
+			);
+			path = audioinfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07AF420614806520004B68A9 /* audioinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AF421114806520004B68A9 /* Build configuration list for PBXNativeTarget "audioinfo" */;
+			buildPhases = (
+				07AF420314806520004B68A9 /* Sources */,
+				07AF420414806520004B68A9 /* Frameworks */,
+				07AF420514806520004B68A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audioinfo;
+			productName = audioinfo;
+			productReference = 07AF420714806520004B68A9 /* audioinfo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07AF41FE14806520004B68A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = MediaPiston;
+			};
+			buildConfigurationList = 07AF420114806520004B68A9 /* Build configuration list for PBXProject "audioinfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07AF41FC14806520004B68A9;
+			productRefGroup = 07AF420814806520004B68A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07AF420614806520004B68A9 /* audioinfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07AF420314806520004B68A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AF420C14806520004B68A9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07AF420F14806520004B68A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07AF421014806520004B68A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07AF421214806520004B68A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07AF421314806520004B68A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07AF420114806520004B68A9 /* Build configuration list for PBXProject "audioinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AF420F14806520004B68A9 /* Debug */,
+				07AF421014806520004B68A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AF421114806520004B68A9 /* Build configuration list for PBXNativeTarget "audioinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AF421214806520004B68A9 /* Debug */,
+				07AF421314806520004B68A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07AF41FE14806520004B68A9 /* Project object */;
+}
