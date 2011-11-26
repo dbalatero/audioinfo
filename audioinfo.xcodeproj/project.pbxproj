@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		07AF420C14806520004B68A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07AF420B14806520004B68A9 /* main.cpp */; };
 		07AF420E14806520004B68A9 /* audioinfo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07AF420D14806520004B68A9 /* audioinfo.1 */; };
+		07AF421514806532004B68A9 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF421414806532004B68A9 /* CoreAudio.framework */; };
+		07AF421714807B11004B68A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF421614807B11004B68A9 /* AudioToolbox.framework */; };
+		07AF421914807B3C004B68A9 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF421814807B3C004B68A9 /* AudioUnit.framework */; };
+		07AF421B14807E0A004B68A9 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF421A14807E0A004B68A9 /* CoreMIDI.framework */; };
+		07AF421D14808D96004B68A9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AF421C14808D95004B68A9 /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +33,11 @@
 		07AF420714806520004B68A9 /* audioinfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = audioinfo; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AF420B14806520004B68A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		07AF420D14806520004B68A9 /* audioinfo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = audioinfo.1; sourceTree = "<group>"; };
+		07AF421414806532004B68A9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		07AF421614807B11004B68A9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		07AF421814807B3C004B68A9 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		07AF421A14807E0A004B68A9 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		07AF421C14808D95004B68A9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07AF421D14808D96004B68A9 /* CoreFoundation.framework in Frameworks */,
+				07AF421B14807E0A004B68A9 /* CoreMIDI.framework in Frameworks */,
+				07AF421914807B3C004B68A9 /* AudioUnit.framework in Frameworks */,
+				07AF421714807B11004B68A9 /* AudioToolbox.framework in Frameworks */,
+				07AF421514806532004B68A9 /* CoreAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +59,11 @@
 		07AF41FC14806520004B68A9 = {
 			isa = PBXGroup;
 			children = (
+				07AF421C14808D95004B68A9 /* CoreFoundation.framework */,
+				07AF421A14807E0A004B68A9 /* CoreMIDI.framework */,
+				07AF421814807B3C004B68A9 /* AudioUnit.framework */,
+				07AF421614807B11004B68A9 /* AudioToolbox.framework */,
+				07AF421414806532004B68A9 /* CoreAudio.framework */,
 				07AF420A14806520004B68A9 /* audioinfo */,
 				07AF420814806520004B68A9 /* Products */,
 			);
